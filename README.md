@@ -20,7 +20,7 @@ Replace the domain name from mysubdomain.domain.com with your domain or subdomai
 docker run --name mysubdomain.domain.com --restart always --publish-all -p 828:80 -p 428:443 --hostname=mysubdomain.domain.com -e VIRTUAL_HOST=mysubdomain.domain.com -e LETSENCRYPT_EMAIL=somemail@somedomainmail.com -e LETSENCRYPT_HOST=mysubdomain.domain.com -d valterseu/teampass
 ```
 <br><br>
-To Run the TeamPass with MySQL use this docker-composer.yml ( How to use it can be seen in my YouTube video: https://youtu.be/eXieWAIsGzc 
+To Run the TeamPass with MySQL use this docker-compose.yaml ( How to use it can be seen in my YouTube video: https://youtu.be/eXieWAIsGzc 
 <br>
 ```
 version: '2'
